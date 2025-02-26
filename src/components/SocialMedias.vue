@@ -5,22 +5,22 @@ export default {
             socialMedias: [
                 {
                     name: "Instagram",
-                    value: "https://www.instagram.com/emwhykay.yusuf/",
+                    value: "https://www.instagram.com/gokhannuslu8",
                     icon: require("@/assets/instagram.webp")
                 },
                 {
                     name: "Discord",
-                    value: "https://discord.com/users/566880716328271883",
+                    value: "",
                     icon: require("@/assets/discord.webp")
                 },
                 {
                     name: "Youtube",
-                    value: "https://www.youtube.com/@YusufKepicoglu",
+                    value: "",
                     icon: require("@/assets/youtube.webp")
                 },
                 {
                     name: "Whatsapp",
-                    value: "tel:+905539875265",
+                    value: "tel:+90434999875",
                     icon: require("@/assets/whatsapp.webp")
                 },
             ],

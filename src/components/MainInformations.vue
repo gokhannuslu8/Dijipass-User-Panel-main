@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            website: "https://trello.com/",
+            website: "www.linkedin.com/in/gokhannuslu/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3BomkVFFD2TcCNMNvn%2FDccnA%3D%3D",
             websiteName: ""
         }
     },
@@ -21,16 +21,16 @@ export default {
 
 <template>
     <div class="profile">
-        <img src="@/assets/profilePhoto.jpeg" class="profilePhoto" />
+        <img src="@/assets/profilePhoto.jpg" class="profilePhoto" />
 
-        <p class="text-white fw-semibold fs-5 m-0 mt-3">Yusuf Kepiçoğlu</p>
+        <p class="text-white fw-semibold fs-5 m-0 mt-3">Gökhan Uslu</p>
         <p class="text-white fw-light title mt-2">Software Developer</p>
 
         <div class="buttons">
             <button><i class="fa-solid fa-phone" /></button>
             <button><i class="fa-regular fa-comment-dots" /></button>
             <button><i class="fa-regular fa-envelope" /></button>
-            <button class="longBtn"><i class="fa-solid fa-location-dot me-2" /> Ordu</button>
+            <button class="longBtn"><i class="fa-solid fa-location-dot me-2" /> İzmir</button>
         </div>
     </div>
 
@@ -43,7 +43,7 @@ export default {
             </div>
 
             <div class="websiteContent ms-2">
-                <p class="title text-secondary">Web Sitem</p>
+                <p class="title text-secondary">LinkedIn</p>
                 <p>{{ websiteName }}</p>
             </div>
         </div>

@@ -27,11 +27,11 @@ export default {
   props: {
     bankaAdi: {
       type: String,
-      default: 'ZİRAAT BANKASI' 
+      default: 'En Para' 
     },
     ibanNumarasi: {
       type: String,
-      default: 'TR33 0006 1005 1978 6457 8413 26' 
+      default: 'TR74 0011 1000 0000 0107 8209 81' 
     }
   },
   methods: {
